@@ -65,4 +65,4 @@ const Login = ({ location, history }) => {  // Pastikan history dan location ada
   );
 };
 
-export default withRouter(Login);  // Membungkus Login dengan withRouter
+export default withRouter(Logi);  // Membungkus Login dengan withRouter
