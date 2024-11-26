@@ -1,0 +1,24 @@
+{
+  "name": "ophelia",
+  "version": "1.0.0",
+  "description": "Ophelia Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacobls/OpheliaStore.git"
+  },
+  "keywords": [
+    "ReactJs",
+    "NodeJs",
+    "MongoDB"
+  ],
+  "author": "Yacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yacobls/OpheliaStore/issues"
+  },
+  "homepage": "https://github.com/yacobls/OpheliaStore#readme"
+}
