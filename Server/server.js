@@ -5,7 +5,7 @@ import ImportData from "./DataImport.js";
 import productRoute from "./Routes/ProductRoutes.js";
 import { errorHandler, notFound } from "./Middleware/Errors.js";
 import userRouter from "./Routes/UserRoutes.js";
-import orderRouter from "./Routes/OrderRoutes.js";
+import orderRouter from "./Routes/orderRoutes.js";
 
 dotenv.config();
 connectDatabase();
