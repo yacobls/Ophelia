@@ -1,7 +1,7 @@
 import express from "express";
 import asyncHandler from "express-async-handler";
 import Product from "./../Models/ProductModel.js";
-import protect from './../Middleware/AuthMiddleware.js';
+import protect from "./../Middleware/AuthMiddleware.js";
 
 const productRoute = express.Router();
 
@@ -9,7 +9,15 @@ const productRoute = express.Router();
 productRoute.get(
   "/",
   asyncHandler(async (req, res) => {
-    const products = await Product.find({});
+    const keyword = req.query.keyword
+      ? {
+          name: {
+            $regex: req.query.keyword,
+            $options: "i",
+          },
+        }
+      : {};
+    const products = await Product.find({ ...keyword });
     res.json(products);
   })
 );
