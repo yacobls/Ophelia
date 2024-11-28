@@ -5,6 +5,7 @@ import ProfileTabs from "../components/profileComponents/ProfileTabs";
 import { getUserDetails } from "../Redux/Actions/userActions";
 import Orders from "./../components/profileComponents/Orders";
 import moment from "moment";
+import { listMyOrders } from "../Redux/Actions/OrderActions";
 
 const ProfileScreen = () => {
   window.scrollTo(0, 0);
@@ -13,8 +14,11 @@ const ProfileScreen = () => {
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
+  const orderListMy = useSelector((state) => state.orderListMy);
+  const { loading, error, orders } = orderListMy;
 
   useEffect(() => {
+    dispatch(listMyOrders());
     dispatch(getUserDetails("profile"));
   }, [dispatch]);
 
@@ -35,7 +39,7 @@ const ProfileScreen = () => {
                     <strong>{userInfo.name}</strong>
                   </h5>
                   <span className="author-card-position">
-                    <>Joined {moment(userInfo.createdAt).format('LL')}</>
+                    <>Joined {moment(userInfo.createdAt).format("LL")}</>
                   </span>
                 </div>
               </div>
@@ -71,7 +75,7 @@ const ProfileScreen = () => {
                     aria-selected="false"
                   >
                     Orders List
-                    <span className="badge2">3</span>
+                    <span className="badge2">{orders ? orders.length : 0}</span>
                   </button>
                 </div>
               </div>
@@ -97,7 +101,7 @@ const ProfileScreen = () => {
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
             >
-              <Orders orders="#" loading="#" error="#" />
+              <Orders orders={orders} loading={loading} error={error} />
             </div>
           </div>
         </div>
