@@ -28,6 +28,14 @@ productRoute.get(
   })
 );
 
+// ADMIN GET ALL PRODUCT WITHOUT SEARCH AND PAGINATION
+// productRoute.get(
+//   "/all",
+//   protect,
+//   admin,
+//   asyncHandler(async (req, res) => {})
+// );
+
 // GET SINGLE PRODUCT
 productRoute.get(
   "/:id",
