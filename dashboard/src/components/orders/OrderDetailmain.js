@@ -114,4 +114,3 @@ const OrderDetailmain = (props) => {
 };
 
 export default OrderDetailmain;
-//
