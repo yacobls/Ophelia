@@ -15,7 +15,7 @@ const ProductsStatistics = () => {
               width: "100%",
               height: "350px",
             }}
-            src="https://charts.mongodb.com/charts-opheliastore-msfdumi/embed/charts?id=c3d65023-0263-4015-9808-2441f74cbbc6&maxDataAge=3600&theme=light&autoRefresh=tru"
+            src="https://charts.mongodb.com/charts-opheliastore-msfdumi/embed/charts?id=c3d65023-0263-4015-9808-2441f74cbbc6&maxDataAge=3600&theme=light&autoRefresh=true"
           ></iframe>
         </article>
       </div>
