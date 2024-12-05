@@ -310,15 +310,15 @@ body.aside-mini .menu-aside .menu-item.has-submenu .menu-link:after {
   margin-bottom: 5px;
 }
 .menu-aside .menu-item .icon {
-  color: #adb5bd;
+  color: #639ce2;
   margin-right: 10px;
   font-size: 18px;
 }
 .menu-aside .active .icon {
-  color: #4fa607;
+  color: #b35bc9;
 }
 .menu-aside .active {
-  background-color: #ebf0fd;
+  background-color: #639ce250;
 }
 .menu-aside .menu-link {
   padding: 10px;
@@ -335,7 +335,7 @@ body.aside-mini .menu-aside .menu-item.has-submenu .menu-link:after {
 }
 .menu-aside .menu-link:hover {
   transition: 0.2s linear;
-  background-color: #e9ecef;
+  background-color: #b35bc950;
 }
 .menu-aside .submenu {
   margin-left: 44px;
@@ -526,6 +526,10 @@ a.itemside:hover .title {
 .card-user {
   margin-bottom: 20px;
 }
+/* CARD HEADER COLOR */
+.card-header {
+  border: solid 1px #b35bc9;
+  }
 .card-user .card-header {
   position: relative;
   height: 100px;
@@ -536,6 +540,10 @@ a.itemside:hover .title {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 100%;
+}
+/* CARD BODY COLOR */
+.card-body {
+border: solid 1px #b35bc9;
 }
 .card-user .card-body {
   text-align: center;
@@ -877,7 +885,7 @@ ul.row-sm {
   padding-right: 0.5em;
 }
 .btn-icon:hover {
-  background-color: rgba(108, 117, 125, 0.15);
+  background-color: #639ce250;
 }
 .btn-icon:focus {
   box-shadow: none;

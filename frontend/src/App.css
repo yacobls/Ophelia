@@ -39,8 +39,10 @@ textarea:focus {
   margin: 0;
   padding: 0;
 }
+
+/* ANNOUNCEMENT COLOR */
 .Announcement {
-  background-color: #03b8a0;
+  background-color: #b35bc9;
   padding: 10px 0px 6px 0px;
 }
 .Announcement .col-md-6 p {
@@ -97,8 +99,9 @@ textarea:focus {
   margin: 0 15px;
 }
 
+/* DROPDOWN MENU COLOR */
 .dropdown-menu {
-  background-color: black !important;
+  background-color: #639ce2 !important;
   border: 0 !important;
   padding: 0 !important;
   overflow: hidden;
@@ -109,7 +112,7 @@ textarea:focus {
   margin: 0 !important;
 }
 .dropdown-menu a:hover {
-  background-color: #03b8a0 !important;
+  background-color: #b35bc980 !important;
   color: #ffffff !important;
 }
 .mobile-header {
@@ -155,9 +158,11 @@ textarea:focus {
 .shop {
   margin-bottom: 50px;
 }
+
+/* BORDER PRODUCT COLOR */
 .border-product {
   padding: 15px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #b35bc9;
   border-radius: 5px;
 }
 .shopBack {
@@ -167,10 +172,13 @@ textarea:focus {
   width: 100%;
   background-color: #f3fbf7;
 }
+
+/* SHOPBACK IMG COLOR */
 .shopBack img {
   width: 100%;
   height: 250px;
   object-fit: contain;
+  background-color: #639ce230;
 }
 .shoptext {
   padding-top: 10px;
@@ -243,6 +251,7 @@ textarea:focus {
   text-transform: uppercase;
   font-size: 12px;
 }
+
 /* CONTACT */
 .contactInfo {
   padding: 70px 0;
@@ -260,13 +269,15 @@ textarea:focus {
   padding: 40px 0;
   box-shadow: 0px 0px 27px 0px rgb(243, 243, 243);
 }
+
+/* BOX INFO COLOR */
 .info-image {
   width: 50px;
   height: 50px;
-  border: 2px solid #03b8a0;
+  border: 2px solid #b35bc9;
   border-radius: 100px;
   font-size: 20px;
-  color: #1cb803;
+  color: #639ce2;
 }
 .box-info h5 {
   font-weight: bold;
@@ -354,7 +365,7 @@ textarea:focus {
   background: #1cb803;
 }
 
-/* LOGIN */
+/* LOGIN & COLOR */
 .login-center {
   padding: 50px 0;
 }
@@ -366,6 +377,7 @@ textarea:focus {
   padding: 35px 30px 30px;
   box-shadow: 0 1px 11px rgba(168, 168, 168, 0.27);
   text-align: center;
+  border: solid 1px #b35bc9;
 }
 .Login input {
   width: 100%;
@@ -378,13 +390,15 @@ textarea:focus {
 .Login input:focus {
   outline: 0px;
 }
+
+/* LOGIN BUTTON COLOR*/
 .Login button,
 .Login2 button {
   width: 100%;
   margin-top: 20px;
   padding: 20px 0;
   border: 0;
-  background-color: #03b8a0;
+  background-color: #639ce2;
   border-radius: 5px;
   text-transform: uppercase;
   color: white;
@@ -422,7 +436,7 @@ textarea:focus {
   object-fit: contain;
   border-radius: 100px;
   margin-top: -60%;
-  box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.377);
+  box-shadow: 0px 0px 27px 0px #b35bc9;
 }
 .wizard .nav button {
   padding: 15px 20px;
@@ -436,7 +450,7 @@ textarea:focus {
   border-top: 1px solid #e4e4e4;
 }
 .wizard .nav .active {
-  background-color: #e5fee9;
+  background-color: #639ce250;
   color: black;
 }
 .badge2 {
@@ -458,18 +472,22 @@ textarea:focus {
   text-transform: uppercase;
   font-size: 13px;
 }
+
+/* FORM INPUT COLOR */
 .form input {
   padding: 20px 10px;
   font-size: 17px;
-  background-color: #e5fee9;
+  background-color: #b35bc950;
 }
+
+/* FORM CONTAINER BUTTON COLOR*/
 .form-container button {
   padding: 15px 0;
   border: 0px;
   margin-top: 20px;
   text-transform: uppercase;
   font-size: 13px;
-  background-color: #1cb803;
+  background-color: #639ce2;
   color: #ffffff;
 }
 /* orders */

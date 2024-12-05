@@ -16,6 +16,7 @@ const SaleStatistics = () => {
               height: "350px",
             }}
             src="https://charts.mongodb.com/charts-opheliastore-msfdumi/embed/charts?id=963c45f5-ad9d-4502-852b-296699eed3cd&maxDataAge=3600&theme=light&autoRefresh=true"
+            title="Statistik penjualan"
           ></iframe>
         </article>
       </div>
